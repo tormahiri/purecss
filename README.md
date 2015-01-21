@@ -1,16 +1,10 @@
-Pure CSS Layout Examples
+pure.css لايھىە رامكىسى 
 ========================
 
-Layout examples using [Pure CSS][pure] compiled from the [pure-site][] project.
-
-[pure]: http://purecss.io/
-[pure-site]: https://github.com/yahoo/pure-site
-
+purec.css ياھو شىركىتى تۈزگەن css بەت گۈزەللەشتۈرۈش رامكىسى بولۇپ، توربىكەت ئاچقۇچىلارغا تولىمۇ قولايلىقلارنى ئىلىپ كەلگەن بولۇپ ،تىز سۈرئەتتە css قۇرۇلمىلىرنى ئورۇنلاشتۇرۇش مەقسىتىگە يەتكىلى بولىدۇ، ئۇنىڭ ئۈستىگە ie8 تور كۆرگۈچىگىمۇ ماسلىشىشچانلىققا ئىگە !
 
 License
 -------
 
-This software is free to use under the Yahoo! Inc. BSD license.
-See the [LICENSE file][] for license text and copyright information.
 
 [LICENSE file]: https://github.com/yahoo/pure-site/blob/master/LICENSE.md
