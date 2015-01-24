@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="uyghur purecss webdesign layout">
+
+    <title>uyghur purecss</title>
+<style type="text/css">
+html,body{
+    font-family: ukij tuz tom;
+    
+}
+#main{
+    direction: rtl;
+}
+</style>
+    
+
+<link rel="stylesheet" href="UKIJTuzTom/eot.min.css">
+<link rel="stylesheet" href="css/layouts/pure-min.css">
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/side-menu.css">
+    <!--<![endif]-->
+  <link rel="stylesheet" type="text/css" href="css/customstyle.css">
+</head>
+<body>
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu pure-menu-open">
+            <a class="pure-menu-heading" href="index.html">css رامكىسى </a>
+
+            <ul>
+                <li><a href="base.html" >ئاساس </a></li>
+             <li><a href="#" >كاتەكچە  </a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <img src="http://purecss.io/img/logo_pure@2x.png" style="max-width:100%">
+            <h2>مۇناسىپ كاتەكچە </h2>
+        </div>
+
+        <div class="content">
+          
+            <p>
+
+Pure Grids نىڭ خىزمىتى ئىنتايىن ئاددى. pure-g نى بىر قۇر ياكى بىر "grid" ، pure-u-*-* نى كولۇننا (columns) ياكى تارماق ("units") دەپ قارايمىز. ھەربىر pure-g نۇرغۇن تارماقلار ("units") نى ئۆز ئىچىگە ئالغان. تارماق (Units) تا ئۇلارنىڭ كەڭلىكى ئارقىلىق ئاتالغان ئوخشىمىغان تۈرلەر (class) بار. مەسىلەن، pure-u-1-2 دا 50% كەڭلىك، pure-u-1-5 دا بولسا 20% كەڭلىك بار.
+
+Pure Grids نىڭ بىردىنبىر چەكلىمىسى بارلىق تارماقلارنىڭ ئىچىدە ئوخشىمغان خەتلەر بار بولغان بالا تارماقلار بولۇش، ئەگەر سىزدە تۈر نامى pure-u-* بولغان بىر دانە ئېلېمېنت بولسا، ئۇ ئىچىدە تۈر نامى pure-g ياكى pure-g-r بولغان باشلىنىش ئېلېمېنتىغا مۇھتاج بولىدۇ. بۇ يەردە بىر مىسال بار ئۈچ قۇردىن تەركىپ تاپقان بىر كاتەكچە؛
+
+
+
+<textarea class="kod">
+
+<div class="pure-g">
+    <div class="pure-u-1-3">
+        <!--
+        -->
+        <p>Thirds</p>
+    </div>
+    <div class="pure-u-1-3">
+        <p>Thirds</p>
+    </div>
+    <div class="pure-u-1-3">
+        <p>Thirds</p>
+    </div>
+</div>
+
+</textarea>
+</br>
+              <p class="content-subhead">
+            <h2>Pure Responsive Grids قانداق خىزمەت قىلىدۇ؟</h2>
+
+Pure Responsive Grids ئەسلىدىن بار بولغان ئەمەلگە ئاشۇرغۇچى كاتەكچىلەر (Grids) ئۈستىگە قورىلىدۇ. ئۇ يېڭى بىر تۈرگە قوشۇلۇپ pure-g-r نامى بىلەن ("r" بولسا مۇناسىپ (Responsive) ) لىققا ۋەكىللىك قىلىدۇ.قاراڭ). بۇ (pure-g-r) تۈر نامىنى  pure-g نىڭ ئورنىغا نورمال ئىشلىتەلەيسىز. بارلىق ئېلېمېنتلار pure-u-*-* تۈر نامى بىلەن ئەگەر ئۇلار pure-g-r نىڭ كۆرسەتمە ھاسىلاتلىرى بولسا ئاپتۇماتىك ھالدا مۇناسىپلىققا (Responsive) خاسلىققا ئايلىنىدۇ.
+تۆۋەندىكى بىرىنچى ئابزاستا، Pure Grids نىڭ يېزىلىش رەت تەرتىپى كۆرسىتىلگەن. بۇلار ئاكتىپ بولمىغان (يۈكلەنمىگەن؛بۇرچسىز؛مەسئۇلىيەتسىز؛...) Grids لار. كۆزنەكنىڭ كەڭلىكى قانداق بولىشىدىن قەتئىينەزەر ئۇلار ھامان 3 تىن 1 نىسبەتتە (3 نىڭ 1 گە نىسپىتى) بويىنچە بولىدۇ. ئىككىنىچى ئابزاستا pure-g نىڭ ئورنىنى pure-g-r ئالغان. شۇ سەۋەبىدىن 3 تىن 1 نىسبەتتىكى كولۇننا (سېلىندىر) لار پۈتۈن ئېكران (كەڭرى ئېكران) لار تەرىپىدىن بىتچىت قىلىنىپ، تۆۋەن كەڭلىكتىكى ئېكران بولىدۇ
+</br>
+
+<textarea class="kod">
+
+<div class="pure-g">
+
+    <div class="pure-u-1-3"> ... </div>
+    <div class="pure-u-1-3"> ... </div>
+    <div class="pure-u-1-3"> ... </div>
+
+</div>
+<div class="pure-g-r">
+
+    <div class="pure-u-1-3"> ... </div>
+    <div class="pure-u-1-3"> ... </div>
+    <div class="pure-u-1-3"> ... </div>
+
+</div>
+
+</textarea>
+              </p>
+                  <p class="content-subhead">
+            <h2>ھالەت (ئارتۇقچىلىقى)</h2>
+ ئوخشىمىغان كەڭلىكتىكى كۆزنەكلەر ئۈچۈن قورۇلمىلىق مېدىيە (ۋاستە) ئىزدىگۈچلىرى قوشۇلغان (Desktops, Landscape Tablets, Portrait Tablets, Phones)
+بىتچىت قىلىنغان ئېلېمىېنىتلار 100 پىرسەنت مۇقىم (مۇقەررەر) كەڭلىكتىن كىچىك بولىدۇ. (767px by default) 
+رەسىملەرنى كىچىك ئېكرانلارغا تەڭشەپ پاتقۇزىدۇ.
+سىز خالىغان بارلىق كولۇننا (columns) لار ئۈچۈن خىزمەت قىلىدۇ.
+سۆز ياسىغۇچى ئالدى قوشۇمچىلاردىن تۈزۈلگەنلەرنى قوللايدۇ
+              </p>
+
+                  <p class="content-subhead">
+            <h2>ئۇنىڭ ھەرىكىتىگە قاراڭ !</h2>
+         رەتلىك بەتتىكى بىتچىت بولغان (Grids) لارغا قاراڭ 
+              </p>
+          
+<div class="pure-g">
+    <div class="pure-u-1-4">
+        <!--
+        -->
+        <h2>تېز</h2>
+        <p>YUI نىڭ يىنىك مەركىزى ۋە بۆلەكلەرگە ئايرىلغان قورۇلمىسى ئۇ (يەنى Grid) نى كېڭەيتىلگەن (يوقىرى كۆتۈرۈلگەن)، تېز ۋە مۇستەھكەم (پۇختا ۋە ئىشەنچلىك) قىلىدۇ. Yahoo دا ئالدىنقى قاتاردىكى ئىنژېنېرلار قورغان، YUI (powers) كۈچى دۇنيادىكى ئەڭ قارشى ئېلىشقا ئېرىشكەن تور بىكەت.</p>
+    </div>
+    <div class="pure-u-1-4">
+      <h2>مۇتلەق</h2>
+        <p>YUI نىڭ بېۋاستە ئوقۇغىلى بولىدىغان خاتىرىسى  API ئاساسىي DOM بىر تەرەپ قىلغۇچىغا، كۆزنەك (desktop) تىكى تور كۆرگۈ، ھەركەتچان ئۈسكۈنە ۋە مۇلازىمېتىرلاردا قورۇلغان يوقىرى ئىقتىداردىكى ۋە قوغدىنىشچان قوللانما (ئەپ) سېستىمىلارغا مۇھتاج.
+</p>
+    </div>
+    
+</div>
+<hr>
+<div class="pure-g">
+    <div class="pure-u-1-4">
+        <!--
+        -->
+        <h2>سانائەت ئەمەلى كۈچى</h2>
+        <p>بىر ئاۋات رايۇن، كۆڭۈل قويۇپ لاھىيەلەنگەن ئاساسى ئەسلىھە (مۇئەسسەسە، سېستىما) ۋە مۇناسىۋەتلىك (زۆرۈر) بولغان كود (شىفىر، پارۇل) لار بىلەن تەمىنلەنگەن بىر يۈرۈش مۇكەممەل قوراللار، ئاددى Web بېتىدىن مۇرەككەپ Web قوللىنىشچان سىستېمىلىرىغىچە.</p>
+    </div>
+    <div class="pure-u-1-4">
+      <h2>ئەركىن ۋە ئېچىۋىتىلگەن</h2>
+        <p>YUI ئىشلىتىلىشى ھەقسىز ۋە GitHub دا ئېچىۋىتىلگەن. مەركىزى ئۆمەك ئەزالىرى Freenode دىكى مۇنبەر ۋە #yui IRC قانىلى ئىچىدىن ھەرقانداق چاغدا تاپالايدۇ. قارشى ئالىمىز
+</p>
+    </div>
+    
+</div>
+<hr>
+   <div class="pure-g">
+                <div class="pure-u-1-4">
+                    <img class="pure-img-responsive" src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/1662333.jpg?690" alt="Peyto Lake">
+                </div>
+               
+              
+            </div>
+                    <p class="content-subhead">
+            <h2>تۇلۇقلىما (padding) ۋە رامكا (borders) ئىشلىتىلگەن Grids بۆلەكلىرى (ئېلېمىېنتلىرى).</h2>
+        Pure Grid لارغا border (رامكا،تىرناق) ۋە padding (تۇلۇقلىما) قوشۇلغاندا، ئىككىلا تاللشىڭىز بار؛
+ بىرىنچى تاللاش؛ ھەربىر Grid بۆلەكلىرى ئىچىدە <div> بار بولغان بىر دانە <div> بىلەن قاپلانغان ۋە style (ئۇسلۇب) بولسا تارماق container (كونتېينىر، قاچا)
+      </br>
+      <textarea class="kod">
+
+<style>
+    .sidebar {
+        padding: 0.5em; 
+        border-right: 2px solid #777;
+    }
+    .main {
+        padding: 0.75em 0.5em; 
+    }
+</style>
+
+...
+
+<div class="pure-g">
+
+    <div class="pure-u-1-2">
+        <div class="sidebar"> ... </div>
+    </div>
+
+    <div class="pure-u-1-2">
+        <div class="main"> ... </div>
+    </div>
+
+</div>
+      </textarea>
+    </br>
+      ئىككىنچى تاللاش؛  Gridبۆلەكلىرى (يەنى ئېلېمېنىتلىرى) غا ئۇدۇللا (بېۋاستە) border (رامكا،تىرناق) ۋە padding (تۇلۇقلىما) قوشۇش. بۇ خىل تاللاش ئادەتتە خەتەرلىك بولۇپ، ئورۇنلاشتۇرۇلمىلارنى (يەنى لاھىيەلەرنى) بۇزۇپ قويىشى مۇمكىن، بىراق box-sizing: border-box بۇ خىل كېڭەيتىلگەن Grid ئارقىلىق بۇ مەسىلىنىڭ ئالدىنى ئوڭايلا ئالالايسىز. مىسال؛
+    </br>
+  </br>
+  <textarea class="kod">
+
+
+<style>
+    .pure-g > div {
+        box-sizing: border-box; 
+    }
+    .sidebar {
+        padding: 0.5em; 
+        border-right: 2px solid #777;
+    }
+    .main {
+        padding: 0.75em 0.5em; 
+    }
+</style>
+
+</br>
+
+
+<div class="pure-g">
+
+    <div class="pure-u-1-2 sidebar"> ... </div>
+    <div class="pure-u-1-2 main"> ... </div>
+
+</div>
+  </textarea>
+</br>
+box-sizing: border-box نى ئىشلەتكەندە بەلگە سالغۇچىڭىزنى ساقلاپ قالىدۇ، بىراق ئىككى كەمچىللىكى بار. Internet explorer 7 گە ئوخشاش ئەنئەنىۋى تور كۆرگۈلەرگە نىسبەتەن ئېيىتقاندا بۇ خىل box-sizing نى قوللاشقا ئامالسىز، بارلىق Grid units ئېلېمېنىتىنىڭ بۇ خىل خاسلىقنى ئورۇنلاشتۇرۇپ ياپمىقى قىيىن ياكى ئورۇنلاشتۇرۇلمىغان قىممەتنى بىر تەرەپ قىلىشى تەس. (Pure lets) box-sizing كۆڭۈلدىكى قىممەت content-box دا ساقلاپ قېلىشقا رۇخسەت قىلىدۇ كېينكى  ئايرىلغان قىممەت سىزنىڭ تاللىشىڭىزغا قالىدۇ.
+     
+<hr>
+<h2>Grids نى ئىشلىتىشنى خالامسىز؟</h2>
+<p class="content-husband">
+
+Grids بولسا Pure CSS ھۆججىتىنىڭ بىر قىسمى. بىراق، ئەگەر سىز Grids نىلا خالاپ باشقا بۆلەكلەرگە قىززىقمىسىڭىز،ئۇنداقتا ئۇنى ئەمەلدىن قالدۇرۇۋاتسىڭىز بولىدۇ. <head> نىڭ ئورنىغا <link> ئېلېمېنىتنى قويسىڭىزمۇ بولىدۇ، مانا مۇشۇنداق؛
+</p>
+       
+
+</div>
+</div>
+</div>
+
+
+
+
+
+<script src="js/ui.js"></script>
+
+
+</body>
+</html>
