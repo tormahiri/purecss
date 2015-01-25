@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="uyghur purecss webdesign layout">
+
+    <title>uyghur purecss</title>
+<style type="text/css">
+html,body{
+    font-family: ukij tuz tom;
+    
+}
+#main{
+    direction: rtl;
+}
+</style>
+    
+
+<link rel="stylesheet" href="UKIJTuzTom/eot.min.css">
+<link rel="stylesheet" href="css/layouts/pure-min.css">
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/side-menu.css">
+          <link rel="stylesheet" type="text/css" href="css/customstyle.css">
+    <!--<![endif]-->
+  
+</head>
+<body>
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu pure-menu-open">
+            <a class="pure-menu-heading" href="index.html">css رامكىسى </a>
+
+            <ul>
+                <li><a href="base.html" >ئاساس </a></li>
+                 <li><a href="gird.html" >كاتەكچە  </a></li>
+              <li><a href="#" >ئۇزىتىش جەدۋىلى   </a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <img src="http://purecss.io/img/logo_pure@2x.png" style="max-width:100%">
+            <h2>جەدۋەل </h2>
+        </div>
+
+        <div class="content">
+          
+            <p>
+              <h2>
+ئادەتتىكى جەدۋەل (Default Form)
+</h2>
+pure-form تۈر نامى (classname) نى ھەرقانداق <form> ئېلېمېنىتىغا قوشساقلا تورغا كىرىش ئۈچۈن (ئاچقۇچلۇق رولىنى ئوينايدىغان) ئادەتتىكى جەدۋەل (default form) نى ياسىغىلى بولىدۇ.
+بىر دانە ئىخچام بولغان تور ئاچقۇچ جەدۋىلى (A compact inline form)
+
+  </br>
+<textarea class="kod">
+<form class="pure-form">
+    <fieldset>
+        <legend>A compact inline form</legend>
+
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+
+        <label for="remember">
+            <input id="remember" type="checkbox"> Remember me
+        </label>
+
+        <button type="submit" class="pure-button notice">Sign in</button>
+    </fieldset>
+</form>
+
+</textarea>
+</br>
+<img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/7715845_orig.jpg">
+<hr>
+    
+              <p class="content-subhead">
+            <h2>ئۈستى-ئۈستىگە (ئارقىمۇ-ئارقا) كەلگەن جەدۋەل (Stacked Form)</h2>
+   ئارقىمۇ-ئارقا كەلگەن جەدۋەل (stacked form)، label ئېلېمىېنتىنىڭ ئاستىدىكى input ئېلېمېنىتلىرى بىلەن ، pure-form-stacked تۈر نامى (classname) نى بىر دانە <form> ئېلېمېنىتىدىكى pure-form نىڭ ئارقىسىغا قوشۇش ئارقىلىق ياسىلىدۇ.
+بىر دانە ئارقىمۇ-ئارقا كەلگەن جەدۋەل (A Stacked Form)
+              </p>
+              <textarea class="kod">
+
+<form class="pure-form pure-form-stacked"> <fieldset> <legend>A Stacked Form</legend> <label for="email">Email</label> <input id="email" type="email" placeholder="Email"> <label for="password">Password</label> <input id="password" type="password" placeholder="Password"> <label for="state">State</label> <select id="state"> <option>AL</option> <option>CA</option> <option>IL</option> </select> <label for="remember" class="pure-checkbox"> <input id="remember" type="checkbox"> Remember me </label> <button type="submit" class="pure-button notice">Sign in</button> </fieldset> </form>
+
+              </textarea>
+              <hr>
+            </br>
+                  <p class="content-subhead">
+            <h2>قەۋەتلىك جەدۋەل (Aligned Form)</h2>
+     
+قەۋەتلىك جەدۋەل (aligned form) بولسا،  pure-form-aligned تۈر نامى (classname) نى <form> ئېلېمېنتىدىكى pure-form نىڭ ئارقىسىغا قوشۇپ ياسىلىدۇ. قەۋەتلىك جەدۋەلدە، label ئېلېمېنتى ئوڭچىل قەۋەت  input ئېلېمېنت كونتۇرۇللىقىغا قارىمۇ-قارشى بولۇپ، بىراق كىچىكرەك ئېكرانلاردا ئارقىمۇ-ئارقا كەلگەن جەدۋەل (A Stacked Form)  ھالىتىگە قايتىدۇ.
+              </p>
+      <textarea class="kod">
+
+<form class="pure-form pure-form-aligned">
+    <fieldset>
+        <div class="pure-control-group">
+            <label for="name">Username</label>
+            <input id="name" type="text" placeholder="Username">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Password">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="email">Email Address</label>
+            <input id="email" type="email" placeholder="Email Address">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="foo">Supercalifragilistic Label</label>
+            <input id="foo" type="text" placeholder="Enter something here...">
+        </div>
+
+        <div class="pure-controls">
+            <label for="cb" class="pure-checkbox">
+                <input id="cb" type="checkbox"> I've read the terms and conditions
+            </label>
+
+            <button type="submit" class="pure-button">Submit</button>
+        </div>
+    </fieldset>
+
+      </textarea>
+      <img 
+class="pure-img-responsive"
+      src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/4714571_orig.jpg">
+    </br>
+    <hr>
+                  <p class="content-subhead">
+            <h2>كۆپ ئىستونلۇق جەدۋەل (Multi-Column Form) (Pure Grids لاردىن تۈزۈلگەن)</h2>
+         كۆپ ئىستونلۇق جەدۋەل (multi-column form) لەر،  ئىچىدە Pure Grids ئېلېمېنتى بولغان form (جەدۋەل) نى ئۆز ئىچىگە ئالغان. تۆۋەندىكى بولسا ئارقىمۇ-ئارقا كەلگەن جەۋەل (stacked form) گە Pure Grids ئېلېمېنتى ئىشلىتىشنىڭ مىسالى.
+              </p>
+                  <textarea class="kod">
+
+
+<form class="pure-form pure-form-stacked">
+    <fieldset>
+        <legend>Legend</legend>
+        <div class="pure-g-r">
+            <div class="pure-u-1-3">
+                <label for="first-name">First Name</label>
+                <input id="first-name" type="text">
+            </div>
+            <div class="pure-u-1-3">
+                <label for="last-name">Last Name</label>
+                <input id="last-name" type="text">
+            </div>
+            <div class="pure-u-1-3">
+                <label for="email">E-Mail</label>
+                <input id="email" type="email" required>
+            </div>
+            <div class="pure-u-1-3">
+                <label for="city">City</label>
+                <input id="city" type="text">
+            </div>
+            <div class="pure-u-1-3">
+                <label for="state">State</label>
+                <select id="state" class="pure-input-medium">
+                    <option>AL</option>
+                    <option>CA</option>
+                    <option>IL</option>
+                </select>
+            </div>
+        </div>
+        <label for="terms" class="pure-checkbox">
+            <input id="terms" type="checkbox"> I've read the terms and conditions
+        </label>
+        <button type="submit" class="pure-button notice">Submit</button>
+    </fieldset>
+</form>
+
+                  </textarea>
+                </br>
+                <img class="pure-img-responsive" src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/2084245_orig.jpg"></img>
+                <hr>
+            <h2>
+Input رازمېرى (Input Sizing)
+            </h2>
+            <p class="content-husband">
+
+Pure Grids غا ئوخشاش ئىچىدە سىنتاكىس (گرامماتىكا) لىق ئاقار جىسىم رازمېرى (ئاقما رازمېر) بار بولغان input ئېلېمېنتىنى كۆرسىتىدۇ. pure-input-* تۈر (class) نامىنى ئىشلىتىپلا بۇ ئېلېمېنتلارنى قۇرالايسىز.
+
+    
+            </p>
+
+
+            <textarea class="kod">
+
+<form class="pure-form">
+    <input class="pure-input-1" type="text" placeholder=".pure-input-1"><br>
+    <input class="pure-input-2-3" type="text" placeholder=".pure-input-2-3"><br>
+    <input class="pure-input-1-2" type="text" placeholder=".pure-input-1-2"><br>
+    <input class="pure-input-1-3" type="text" placeholder=".pure-input-1-3"><br>
+    <input class="pure-input-1-4" type="text" placeholder=".pure-input-1-4"><br>
+ </form>
+ </textarea>
+    <img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/404700_orig.jpg" class="pure.img-responsive">
+    <hr>
+
+    <p class="content-husband">
+
+      <h2>
+
+      </h2>
+      Input رازمېرىنى تېخىمۇ ئىچكىرلىگەن ھالدا grid كونتېينىر(containers) ئىچىگە ئوراپ كونتۇرۇل قىلالايسىز. تۆۋەندىكى مىسالدا، input ئېلېمېنتلىرىنىڭ ئىچىدە pure-input-1 تۈر (class) نامى بار، بىراق ئۇلار ئالاھىدە بىر grid class ئارقىلىق <div> ئىچىگە ئورالغان .
+    </p>
+
+       <textarea class="kod">
+
+<form class="pure-form pure-g">
+    <div class="pure-u-1-4">
+        <input class="pure-input-1" type="text" placeholder=".pure-u-1-4">
+    </div>
+    <div class="pure-u-3-4">
+        <input class="pure-input-1" type="text" placeholder=".pure-u-3-4">
+    </div>
+
+    <div class="pure-u-1-2">
+        <input class="pure-input-1" type="text" placeholder=".pure-u-1-2">
+    </div>
+    <div class="pure-u-1-2">
+        <input class="pure-input-1" type="text" placeholder=".pure-u-1-2">
+    </div>
+
+    <div class="pure-u-1-8">
+        <input class="pure-input-1" type="text" placeholder=".pure-u-1-8">
+    </div>
+    <div class="pure-u-1-8">
+        <input class="pure-input-1" type="text" placeholder=".pure-u-1-8">
+    </div>
+    <div class="pure-u-1-4">
+        <input class="pure-input-1" type="text" placeholder=".pure-u-1-4">
+    </div>
+    <div class="pure-u-1-2">
+        <input class="pure-input-1" type="text" placeholder=".pure-u-1-2">
+    </div>
+
+    <div class="pure-u-1-5">
+        <input class="pure-input-1" type="text" placeholder=".pure-u-1-5">
+    </div>
+    <div class="pure-u-2-5">
+        <input class="pure-input-1" type="text" placeholder=".pure-u-2-5">
+    </div>
+    <div class="pure-u-2-5">
+        <input class="pure-input-1" type="text" placeholder=".pure-u-2-5">
+    </div>
+
+    <div class="pure-u-1">
+        <input class="pure-input-1" type="text" placeholder=".pure-u-1">
+    </div>
+</form>
+
+       </textarea>
+   </br>
+   <img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/6652299_orig.jpg"
+
+   class="pure-img.responsive">
+   <hr>
+   <p class="content-husband">
+<h2>
+Required Inputs لىرى
+</h2>
+require غا ئوخشاش form كونتۇرولى ئارقىلىق بەلگە قويۇلۇپ، required ئېنىقلىغۇچىسى قوشۇلغان.
+   </p>
+   <textarea class="kod">
+
+<form class="pure-form">
+    <input type="email" placeholder="Requires an email" required>
+</form>
+
+   </textarea>
+</br>
+<img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/1915992.jpg?508"
+class="img-pure-responsive">
+<hr>
+<p class="content-husband">
+
+<h2>
+پاسسىپ بولغان Input لار
+
+</h2>
+Disabled ئېنىقلىغۇچىسى قوشۇلغان، پاسسىپ بولغان form كونتۇرول (control) نى كۆرسىتىدۇ.
+</p>
+<textarea class="kod">
+
+<form class="pure-form">
+    <input type="text" placeholder="Disabled input here..." disabled>
+</form>
+
+</textarea>
+</br>
+<img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/1475211_orig.jpg"
+class="img-pure-responsive">
+<p class="content-husband">
+<h2>
+يۇمىلاق (ئايلانما) شەكىللىك Input لار
+</h2>
+تۈر (classname) نامى pure-input-rounded غا قوشۇلۇپ، بۇلۇڭلىرى (قىرلىرى) يۇمىلاقلاشتۇرۇلغان form كونتۇرولىنى كۆرسىتىدۇ.
+</p>
+<textarea class="kod">
+
+
+<form class="pure-form">
+    <input type="text" class="pure-input-rounded">
+    <button type="submit" class="pure-button">Search</button>
+</form>
+
+</textarea>
+<img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/3109654_orig.jpg"
+class="img-pures-responsive">
+
+<p class="content-husband">
+<h2>
+Checkboxes ۋە Radios لار
+</h2>
+
+ pure-checkbox ياكى pure-radio تۈر (classname) نامىغا قوشۇلۇپ، قېلىپلاشتۇرۇلغان (نورماللاشتۇرۇلغان) ۋە ئورۇنلاشتۇرۇلغان checkboxes ۋە radio  input لىرىنى كۆرسىتىدۇ.
+</p>
+<textarea class="kod">
+
+<form class="pure-form">
+    <label for="option-one" class="pure-checkbox">
+        <input id="option-one" type="checkbox" value="">
+        Here's option one.
+    </label>
+
+    <label for="option-two" class="pure-radio">
+        <input id="option-two" type="radio" name="optionsRadios" value="option1" checked>
+        Here's a radio button. You can choose this one..
+    </label>
+
+    <label for="option-three" class="pure-radio">
+        <input id="option-three" type="radio" name="optionsRadios" value="option2">
+        ..Or this one!
+    </label>
+</form>
+</textarea>
+</br>
+<img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/6904526_orig.jpg"
+class="img-pure-responsive">
+</div><!--end-->
+</div>
+</div>
+
+
+<script src="js/ui.js"></script>
+
+
+</body>
+</html>
