@@ -1,0 +1,264 @@
+	<!doctype html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="uyghur purecss webdesign layout">
+
+		<title>purecss</title>
+		<style type="text/css">
+		html,body{
+			font-family: ukij tuz tom;
+
+		}
+		#main{
+			direction: rtl;
+		}
+		</style>
+
+
+		<link rel="stylesheet" href="UKIJTuzTom/eot.min.css">
+		<link rel="stylesheet" href="css/layouts/pure-min.css">
+
+	    <!--[if lte IE 8]>
+	        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+	        <![endif]-->
+	        <!--[if gt IE 8]><!-->
+	        <link rel="stylesheet" href="css/layouts/side-menu.css">
+	        <link rel="stylesheet" type="text/css" href="css/customstyle.css">
+	        <!--<![endif]-->
+
+	    </head>
+	    <body>
+
+	    	<div id="layout">
+	    		<!-- Menu toggle -->
+	    		<a href="#menu" id="menuLink" class="menu-link">
+	    			<!-- Hamburger icon -->
+	    			<span></span>
+	    		</a>
+
+	    		<div id="menu">
+	    			<div class="pure-menu pure-menu-open">
+	    				<a class="pure-menu-heading" href="index.html">css رامكىسى </a>
+
+	    				<ul>
+  <li><a href="base.html" >ئاساس </a></li>
+                <li><a href="gird.html" >كاتەكچە  </a></li>
+
+                <li><a href="forms.html" >ئۇزىتىش جەدۋىلى   </a></li>
+                <li><a href="konupka.html" >كونۇپكا   </a></li>
+                  <li><a href="jadwal.html" >جەدۋەل    </a></li>
+                <li><a href="tezimlik.html" >تىزىملىك    </a></li>
+                 <li><a href="custom.html" >بەلگىلەش     </a></li>
+                  <li><a href="layiha.html" >لايىھە     </a></li>
+
+	    				</ul>
+	    			</div>
+	    		</div>
+
+	    		<div id="main">
+	    			<div class="header">
+	    				<img src="http://purecss.io/img/logo_pure@2x.png" style="max-width:100%">
+	    				<h2>كونۇپكىلار</h2>
+
+	    			</div>
+
+	    			<div class="content">
+
+	    				<p>
+	    					<h2>
+	    						ئادەتتىكى كونۇپكىلار (Default Buttons)
+	    					</h2>
+
+	    					<font size="3">بىر دانە pure كونۇپكا (button)، ھەرقانداق &lt;a&gt; ياكى &lt;button&gt; ئېلېمېنتىغا pure-button تۈر نامى (classname) نى قوشۇش ئارقىلىق بارلىققا كېلىدۇ.<br></font>
+
+
+	    				</br>
+
+	    				<img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/5721707_orig.jpg">
+	    			</br>
+	    			<textarea class="kod">
+	    				<a class="pure-button pure-button-disabled" href="#">A Disabled Button</a>
+	    				<button class="pure-button pure-button-disabled">A Disabled Button</button>
+	    			</textarea>
+	    			<hr>
+
+	    			<p class="content-subhead">
+	    				<h2>پاسسىپ كونۇپكىلار (Disabled Buttons)</h2>
+	    				پاسسىپلىق بەلگىسى (disabled) قويۇلۇپ، pure-button  تۈر نامىنىڭ كەينىگە pure-button-disabled تۈر نامى (class name) نى قوشۇش ئارقىلىق بارلىققا كېلىدۇ
+	    			</p>
+	    			<img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/326702_orig.jpg">
+	    		</br>
+	    		<textarea class="kod">
+
+	    			<a class="pure-button pure-button-disabled" href="#">A Disabled Button</a>
+	    			<button class="pure-button pure-button-disabled">A Disabled Button</button>
+
+
+
+
+	    		</textarea>
+	    		<p class="content-subhead">
+	    			<h2>ھەرىكەتچان كونۇپكىلار (Active Buttons)</h2>
+	    			"pressed" (سىغدالغان، قىسىلغان) ھالەتتە ئىپادىلەنگەن كونۇپكا pure-button نىڭ كەينىگە pure-button-active تۈر نامى (class name) نى قوشۇش ئارقىلىق بارلىققا كېلىدۇ.
+	    		</p>
+	    		<img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/1353069_orig.jpg">
+	    	</br>
+	    	<textarea class="kod">
+
+	    		<a class="pure-button pure-button-active" href="#">An Active Button</a>
+	    		<button class="pure-button pure-button-active">An Active Button</button>
+
+
+
+
+	    	</textarea>
+	    	<p class="content-subhead">
+	    		<h2>ئەسلى (ئىپتىدائىي)كونۇپكىلار (Primary Buttons)</h2>
+	    		بىر كونۇپكا بىر ئاساسىي ھەرىكەت (primary action) كە ۋەكىللىك قىلىدۇ دەپ كۆرسەتمە بېرىلىپ، pure-button نىڭ كەينىگە pure-button-primary تۈر نامى (classname) نى قوشۇش ئارقىلىق بارلىققا كېلىدۇ.
+	    	</p>
+	    	<img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/7943052_orig.jpg">
+	    </br>
+	    <textarea class="kod">
+
+
+	    	<a class="pure-button pure-button-primary" href="#">A Primary Button</a>
+	    	<button class="pure-button pure-button-primary">A Primary Button</button>
+
+
+
+	    </textarea>
+	    <p class="content-subhead">
+	    	<h2>ئۆزى بەلگىلەيدىغان كونۇپكىلار (Customizing Buttons)</h2>
+
+	    	Pure  نىڭ ئەڭ كىچىك شەكلى ئاساسىدا، شەخسىي ئەپلىرىڭىز ئۈچۈن ئۇنىۋىرسال button Pure كونۇپكىسىنى ۋە ئابۇنىتلاشتۇرۇلۇپ ياسالغان كونۇپكىلارنى قورۇش ئاسانلاشتۇرۇلدى.
+	    	شەخسىيلەشتۈرۈلگەن كونۇپكا شەكىللىرىدە،  شەخسى CSS سېستىمىڭىزدا pure-button-foo غا ئۇخشاش تۈر (class) ئىچىدە گۇرۇپپىلاشتۇرالايسىز، ئاندىن ئەسلىدىن pure-button تۈر نامى بار بولغان بىر ئېلېمېنىتنى قوشالايسىز. بۇ يەردە بىر مىسال بار؛
+
+	    </p>
+	    <img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/6537290_orig.jpg">
+	</br>
+	<textarea class="kod">
+
+
+		<div>
+			<style scoped>
+
+			.pure-button-success,
+			.pure-button-error,
+			.pure-button-warning,
+			.pure-button-secondary {
+				color: white;
+				border-radius: 4px;
+				text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+			}
+
+			.pure-button-success {
+				background: rgb(28, 184, 65); /* this is a green */
+			}
+
+			.pure-button-error {
+				background: rgb(202, 60, 60); /* this is a maroon */
+			}
+
+			.pure-button-warning {
+				background: rgb(223, 117, 20); /* this is an orange */
+			}
+
+			.pure-button-secondary {
+				background: rgb(66, 184, 221); /* this is a light blue */
+			}
+
+			</style>
+
+			<button class="pure-button pure-button-success">Success Button</button>
+			<button class="pure-button pure-button-error">Error Button</button>
+			<button class="pure-button pure-button-warning">Warning Button</button>
+			<button class="pure-button pure-button-secondary">Secondary Button</button>
+
+
+
+		</textarea>
+		<p class="content-subhead">
+			<h2>ھەرخىل رازمېردىكى كونۇپكىلار (Buttons with defferent sizes)</h2>
+
+		</p>
+		<img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/5451592_orig.jpg">
+	</br>
+	<textarea class="kod">
+
+		<div>
+			<style scoped>
+
+			.pure-button-xsmall {
+				font-size: 70%;
+			}
+
+			.pure-button-small {
+				font-size: 85%;
+			}
+
+			.pure-button-large {
+				font-size: 110%;
+			}
+
+			.pure-button-xlarge {
+				font-size: 125%;
+			}
+
+			</style>
+
+			<button class="pure-button pure-button-xsmall">Extra Small Button</button>
+			<button class="pure-button pure-button-small">Small Button</button>
+			<button class="pure-button">Regular Button</button>
+			<button class="pure-button pure-button-large">Large Button</button>
+			<button class="pure-button pure-button-xlarge">Extra Large Button</button>
+
+
+
+		</textarea>
+
+
+		<p class="content-subhead">
+			<h2>ئايكونلۇق كونۇپكىلار (Buttons with icons)</h2>
+			pure ئۇ icon خەت شەكلى بىلەن كىمىگە چىقمايدۇ،لىكىن بىزباربولغان بىرسىى بىلەن ئوينىساق بولىدۇ،pure دىكى كونۇپكىنى icon خەت شەكلى بىلەن بىرلەشتۈرۈش ناھايتى ئوڭاي،ئاستىدكى مىسالدا بىز  
+		</p>
+		<img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/7555067_orig.jpg">
+	</br>
+	<textarea class="kod">
+
+
+		<button class="pure-button">
+			<i class="icon-cog"></i>
+			Settings
+		</button>
+
+		<a class="pure-button" href="#">
+			<i class="icon-shopping-cart icon-large"></i>
+			Checkout
+		</a>
+
+	</textarea>
+
+
+	<p class="content-subhead">
+		<h2>ئۈستى-ئۈستىگە (ئارقىمۇ-ئارقا) كەلگەن جەدۋەل (Stacked Form)</h2>
+		ئارقىمۇ-ئارقا كەلگەن جەدۋەل (stacked form)، label ئېلېمىېنتىنىڭ ئاستىدىكى input ئېلېمېنىتلىرى بىلەن ، pure-form-stacked تۈر نامى (classname) نى بىر دانە <form> ئېلېمېنىتىدىكى pure-form نىڭ ئارقىسىغا قوشۇش ئارقىلىق ياسىلىدۇ.
+		بىر دانە ئارقىمۇ-ئارقا كەلگەن جەدۋەل (A Stacked Form)
+	</p>
+	<img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/5721707_orig.jpg">
+</br>
+<textarea class="kod">
+
+</textarea>
+
+</div><!--end-->
+</div>
+</div>
+
+
+<script src="js/ui.js"></script>
+
+
+</body>
+</html>

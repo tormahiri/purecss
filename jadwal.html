@@ -1,0 +1,293 @@
+	<!doctype html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="uyghur purecss webdesign layout">
+
+		<title>purecss</title>
+		<style type="text/css">
+		html,body{
+			font-family: ukij tuz tom;
+			
+		}
+		#main{
+			direction: rtl;
+		}
+		</style>
+		
+
+		<link rel="stylesheet" href="UKIJTuzTom/eot.min.css">
+		<link rel="stylesheet" href="css/layouts/pure-min.css">
+
+	    <!--[if lte IE 8]>
+	        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+	        <![endif]-->
+	        <!--[if gt IE 8]><!-->
+	        <link rel="stylesheet" href="css/layouts/side-menu.css">
+	        <link rel="stylesheet" type="text/css" href="css/customstyle.css">
+	        <!--<![endif]-->
+	        
+	    </head>
+	    <body>
+
+	    	<div id="layout">
+	    		<!-- Menu toggle -->
+	    		<a href="#menu" id="menuLink" class="menu-link">
+	    			<!-- Hamburger icon -->
+	    			<span></span>
+	    		</a>
+
+	    		<div id="menu">
+	    			<div class="pure-menu pure-menu-open">
+	    				<a class="pure-menu-heading" href="index.html">css رامكىسى </a>
+
+	    				<ul>
+	    	  <li><a href="base.html" >ئاساس </a></li>
+                <li><a href="gird.html" >كاتەكچە  </a></li>
+
+                <li><a href="forms.html" >ئۇزىتىش جەدۋىلى   </a></li>
+                <li><a href="konupka.html" >كونۇپكا   </a></li>
+                  <li><a href="jadwal.html" >جەدۋەل    </a></li>
+                <li><a href="tezimlik.html" >تىزىملىك    </a></li>
+                 <li><a href="custom.html" >بەلگىلەش     </a></li>
+                  <li><a href="layiha.html" >لايىھە     </a></li>
+
+	    				</ul>
+	    			</div>
+	    		</div>
+
+	    		<div id="main">
+	    			<div class="header">
+	    				<img src="http://purecss.io/img/logo_pure@2x.png" style="max-width:100%">
+	    				<h2 >جەدۋەل<br><span style=""></span>  Tables<font size="4"><br><span style=""></span><font color="#999999">  CSS دا ئىشلەنگەن ئاددى بولغان HTML (Tables) جەدۋىلى<br><span style=""></span>  Simple CSS for HTML Tables</font></font><br><span style=""></span><br><span style=""></span></h2>
+
+	    			</div>
+
+	    			<div class="content">
+	    				
+	    				<p>
+	    					<h2>
+ئادەتتىكى جەدۋەل (Default Table)
+	    					</h2>
+
+	    					
+Pure-table تۈر نامى(classname) قوشۇلغان، بىر دانە HTML جەدۋەل (table) ئۇسلۇبى. بۇ تۈر (class) نىڭ Table ئېلېمىېنىتلىرىغا borders ۋە padding قوشۇلغان ، ۋە بېشى (head) تەكىتلەنگەن (كۆپەيتىلگەن) (يەنى th قوشۇلۇپ head ئالاھىدە تەكىتلەنگەن) .
+
+
+	    				</br>
+
+	    				<img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/7919278_orig.png">
+	    			</br>
+	    			<textarea class="kod">
+	    		<table class="pure-table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Honda</td>
+            <td>Accord</td>
+            <td>2009</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Toyota</td>
+            <td>Camry</td>
+            <td>2012</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Hyundai</td>
+            <td>Elantra</td>
+            <td>2010</td>
+        </tr>
+    </tbody>
+</table>
+
+	    			</textarea>
+	    			<hr>
+	    			
+	    			<p class="content-subhead">
+	    				<h2>قىرغاق (border) لىق جەدۋەل (Bordered Table) </h2>
+	    			بارلىق ھۈجەيرىلىرى (cells) گە گورىزونتال ۋە ۋېرتىكال بولغان قىرغاق (borders) لار قوشۇلغان، <table> ئېلېمېنتىغا pure-table-bordered تۈر (classname) قوشۇلغان.
+	    			</p>
+	    			<img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/6923895_orig.png">
+	    		</br>
+	    		<textarea class="kod">
+<table class="pure-table pure-table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Honda</td>
+            <td>Accord</td>
+            <td>2009</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Toyota</td>
+            <td>Camry</td>
+            <td>2012</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Hyundai</td>
+            <td>Elantra</td>
+            <td>2010</td>
+        </tr>
+    </tbody>
+</table>
+	    		</textarea>
+	    		<p class="content-subhead">
+	    			<h2>گورىزونتال قىرغاق (border) لىق جەدۋەل (Table with Horizontal Borders)</h2>
+	    		ئەگەر پەقەتلا گورىزونتال سىزىقلارنى ياختۇرسىڭىز، <table> ئېلېمېنتىغا pure-table-horizontal تۈر نامى (classname) نى قوشۇڭ.
+	    		</p>
+	    		<img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/2905878_orig.png">
+	    	</br>
+	    	<textarea class="kod">
+<table class="pure-table pure-table-horizontal">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Honda</td>
+            <td>Accord</td>
+            <td>2009</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Toyota</td>
+            <td>Camry</td>
+            <td>2012</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Hyundai</td>
+            <td>Elantra</td>
+            <td>2010</td>
+        </tr>
+    </tbody>
+</table>
+	    	</textarea>
+	    	<p class="content-subhead">
+	    		<h2>يوللۇق (يول-يول سىزىقلىق) جەدۋەل (Striped Table)</h2>
+	    		ئەگەر قۇرلارنى ئاسانلا پەرىق ئەتكىلى بولىدىغان بولسا چوڭ تىپتىكى جەدۋەللەرنى ئوڭايلا قاراپ ئانالىز قىلىغىلى بولىدۇ. ھەربىر <tr> ئېلېمېنتىغا pure-table-odd تۈر نامى (classname) نى قوشۇش ئارقىلىق قۇرنىڭ تەگلىك رەڭگىنى ئۆزگەرتىپ ۋە (zebra) تاغىل ئات ئۇسلۇب ئۈنۈمىنى ياراتقىلى بولىدۇ.
+دىققەت: CSS 3 نى قوللايدىغان تور كۆرگۈدە nth-child يالغان تاللاش بىر ئاددى يول ئىشلىتىلگەن. <table> ئېلېمېنتىغا pure-table-striped تۈر نامى (classname) قوشقىلى بولىدۇ ۋە تاغىل ئات يول سىزىقچىلىرى ئاپتۇماتىك پەيدا بولىدۇ. بۇ خىل يول IE 8 (Internet Explorer 8) ياكى تۆۋەن بولغان تور كۆرگۈلەردە خىزمەت قىلالمايدۇ.
+
+	    	</p>
+	    	<img src="http://purecss.weebly.com/uploads/1/0/6/7/1067082/8335892_orig.png">
+	    </br>
+	    <textarea class="kod">
+
+<table class="pure-table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr class="pure-table-odd">
+            <td>1</td>
+            <td>Honda</td>
+            <td>Accord</td>
+            <td>2009</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Toyota</td>
+            <td>Camry</td>
+            <td>2012</td>
+        </tr>
+
+        <tr class="pure-table-odd">
+            <td>3</td>
+            <td>Hyundai</td>
+            <td>Elantra</td>
+            <td>2010</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Ford</td>
+            <td>Focus</td>
+            <td>2008</td>
+        </tr>
+
+        <tr class="pure-table-odd">
+            <td>5</td>
+            <td>Nissan</td>
+            <td>Sentra</td>
+            <td>2011</td>
+        </tr>
+
+        <tr>
+            <td>6</td>
+            <td>BMW</td>
+            <td>M3</td>
+            <td>2009</td>
+        </tr>
+
+        <tr class="pure-table-odd">
+            <td>7</td>
+            <td>Honda</td>
+            <td>Civic</td>
+            <td>2010</td>
+        </tr>
+
+        <tr>
+            <td>8</td>
+            <td>Kia</td>
+            <td>Soul</td>
+            <td>2010</td>
+        </tr>
+    </tbody>
+</table>
+
+
+	    </textarea>
+
+</div><!--end-->
+</div>
+</div>
+
+
+<script src="js/ui.js"></script>
+
+
+</body>
+</html>
