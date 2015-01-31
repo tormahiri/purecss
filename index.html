@@ -15,7 +15,26 @@ html,body{
     direction: rtl;
 }
 </style>
-    
+    <script src="parse-1.3.4.min.js"></script>
+  <script type="text/javascript">
+Parse.initialize("hQWftQt5eQRpD42DoAt5a1qtkbj5ELxzc3Wf0day", "PVs8bX49QkDWCyoSa6P2g3TeUj6JH1Xrb0m5sY8g");
+
+  var count=0;
+        function load () {
+          var cls=count++;
+          console.log(cls);
+        }
+        load();
+var dimensions = {
+  // What type of news is this? 
+  category: 'politics',
+  // Is it a weekday or a weekend?
+  dayType: 'weekday'
+};
+// Send the dimensions to Parse along with the 'search' event
+ 
+Parse.Analytics.track('read', dimensions);
+  </script> 
 
 <link rel="stylesheet" href="UKIJTuzTom/eot.min.css">
 <link rel="stylesheet" href="css/layouts/pure-min.css">
